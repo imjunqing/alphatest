@@ -12,9 +12,18 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print("Hello world")
+        let price: Int = 80
+        
+        if price >= 100 {
+            print("price is too costly")
+        } else {
+            print("price is ok")
+        }
+
         // Do any additional setup after loading the view, typically from a nib.
     }
-
 
 }
 
