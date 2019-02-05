@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print("Mao qing")
         print("Hello world")
         let price: Int = 80
         

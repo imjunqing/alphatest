@@ -32,8 +32,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="syd-AA-8wL">
+                                <rect key="frame" x="0.0" y="231" width="375" height="128"/>
+                                <color key="backgroundColor" red="0.25231275739999998" green="0.59309954350000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="syd-AA-8wL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NTq-Vx-hPS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="syd-AA-8wL" secondAttribute="trailing" id="wpN-Wx-qNb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
